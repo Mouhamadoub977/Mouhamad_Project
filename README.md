@@ -56,7 +56,8 @@ nature_sin : Nature du sinistre
 
 ## Objectif
 
-L'objectif est de générer une structure de données simple et tabulaire pour chaque sinistre, facilitant ainsi les analyses et rapports. La structure finale regroupe chaque sinistre dans une seule ligne avec les informations essentielles.
+L'objectif est de générer une structure de données simple et tabulaire pour chaque sinistre, facilitant ainsi les analyses et rapports.
+La structure finale regroupe chaque sinistre dans une seule ligne avec les informations essentielles.
 
 ## Instructions d'Exécution
 Exécuter le script de transformation :
