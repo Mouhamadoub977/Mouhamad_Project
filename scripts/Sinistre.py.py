@@ -8,7 +8,7 @@ from decimal import Decimal
 import numpy as np
 from pyspark.sql.types import *
 import pyspark.sql.functions as func
-# tu peux rajouté tous les autres import donc tu aurais besoin 
+
 
 # COMMAND ----------
 
@@ -130,7 +130,7 @@ rdd_firts3 = rdd_exo.map(lambda row: (row[0], row[1], row[2]))
 # Utiliser flatMap pour accéder à chaque liste d'enregistrements et extraire les trois premières colonnes
 rdd_3_first3 = rdd_3.flatMap(lambda x: [(record[0], record[1], record[2]) for record in x[1]])
 
-# Afficher le résultat
+
 # display(rdd_3_first3.collect())
 
 
